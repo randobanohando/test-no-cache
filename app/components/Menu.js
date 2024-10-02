@@ -7,6 +7,7 @@ export default function Menu() {
 
     console.log("Menu Loaded!");
 
+    // If you replace <Link> with <a> it will work correctly. Issue is to get this working with <Link> for the Menu.
     return (
         <div>
                 <Link href="/">[Home]</Link>
